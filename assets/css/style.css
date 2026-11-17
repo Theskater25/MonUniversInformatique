@@ -75,3 +75,30 @@
 .release-skipped .release-card{background:transparent;border-style:dashed}
 .release-skipped .release-card p{margin-bottom:0}
 @media(max-width:550px){.release-item{grid-template-columns:1fr;gap:10px}.release-number{padding-top:0}.release-card{padding:22px}.release-history{margin-top:55px}}
+
+/* Project case studies, gameplay previews and a progressive mobile menu. */
+.project-links{align-items:center}
+.menu-toggle{display:none;align-items:center;justify-content:center;gap:7px;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panel);color:var(--text);font-size:.88rem}
+.menu-toggle[hidden]{display:none!important}
+.case-section{margin:65px 0}
+.case-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.case-grid .panel p{font-size:.95rem}
+.case-grid .panel h3{color:var(--cyan)}
+.case-hero{margin:35px 0 55px;max-width:960px;overflow:hidden;border:1px solid var(--line);border-radius:var(--radius);background:var(--panel)}
+.case-hero img{display:block;width:100%;height:auto}
+.case-hero figcaption,.gameplay-grid figcaption{padding:18px 22px;color:var(--muted);font-size:.86rem}
+.gameplay-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.gameplay-grid figure{margin:0;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:var(--panel)}
+.gameplay-grid a{display:block;background:var(--bg)}
+.gameplay-grid img{display:block;width:100%;height:auto;aspect-ratio:16/10;object-fit:contain}
+@media(max-width:800px){
+ .site-header.menu-enabled{flex-direction:row;flex-wrap:wrap;align-items:center;gap:10px 12px}
+ .menu-enabled .brand{max-width:calc(100% - 95px);white-space:normal;font-size:.9rem;line-height:1.4}
+ .menu-enabled .menu-toggle{display:inline-flex;margin-left:auto}
+ .site-header.menu-enabled nav{display:none;flex-basis:100%;flex-direction:column;align-items:stretch;gap:4px;max-height:calc(100svh - 95px);overflow-y:auto;padding-top:8px}
+ .site-header.menu-enabled.is-menu-open nav{display:flex}
+ .menu-enabled nav a{display:flex;align-items:center;min-height:44px;padding:9px 5px;font-size:.95rem}
+ .menu-enabled nav .language{align-self:flex-start;min-width:52px;min-height:44px;margin-top:6px}
+ .gameplay-grid{grid-template-columns:1fr}
+}
+@media(max-width:600px){.case-grid{grid-template-columns:1fr}.case-section{margin:50px 0}}

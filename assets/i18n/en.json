@@ -3,7 +3,9 @@
     "home": "Home",
     "projects": "Projects",
     "journey": "Journey",
-    "contact": "Contact"
+    "contact": "Contact",
+    "menu": "Menu",
+    "label": "Main navigation"
   },
   "hero": {
     "eyebrow": "PORTFOLIO · SOFTWARE & GAME DEVELOPMENT",
@@ -34,7 +36,10 @@
   "project": {
     "code": "View source ↗",
     "play": "Try the demo →",
-    "repo": "View repository ↗"
+    "repo": "View repository ↗",
+    "details": "Explore the project →",
+    "playNow": "Play →",
+    "download": "Python source (.zip) ↗"
   },
   "journey": {
     "kicker": "MY JOURNEY",
@@ -228,6 +233,56 @@
         "n4": "Campaign, statistics, balance and progression rules preserved; 2.7 saves kept separate.",
         "source": "Source: 2.7 graphics report ↗"
       }
+    }
+  },
+  "caseStudy": {
+    "goal": "The goal",
+    "role": "My contribution",
+    "challenge": "The technical challenge",
+    "solution": "The implementation",
+    "skills": "Skills involved",
+    "team": "The team",
+    "back": "← Back to projects",
+    "behind": "Behind the project",
+    "gallery": "The game in action",
+    "galleryIntro": "Screenshots from an actual playthrough of version 2.7. Select a preview to open the full image."
+  },
+  "cases": {
+    "mancala": {
+      "documentTitle": "Mancala: my work on rendering | Mon Univers Informatique",
+      "kicker": "TEAM PROJECT · PYTHON / PYGAME",
+      "title": "Mancala, from board to screen",
+      "intro": "A team adaptation of the strategy game Mancala. Two players choose a pit, distribute its seeds and try to collect more than their opponent.",
+      "goal": "Represent a board with twelve pits and two stores, display the game state and help both players follow their turns.",
+      "role": "I implemented the Pygame rendering: the board, seeds, current-player indicator and end-of-game messages.",
+      "challenge": "Align the images with the board positions and clearly display seed counts that change during the game.",
+      "solution": "The board and seeds are drawn on Pygame surfaces. Each pit has coordinates, with seeds arranged in small grids based on their number. The screen is redrawn to reflect the game state.",
+      "skills": "Pygame 2D rendering, working with images and coordinates, element layout and visual representation of program state.",
+      "team": "Clément Faure, Clément Dufour and Tom Torrente. The contribution described here is my work on rendering.",
+      "caption": "The board, seeds and current-player indicator in the Python / Pygame version."
+    },
+    "blackjack": {
+      "documentTitle": "Blackjack: Python and browser demo | Mon Univers Informatique",
+      "kicker": "PYTHON / PYGAME ZERO · WEB ADAPTATION",
+      "title": "Blackjack, from rules to an interactive game",
+      "intro": "A Python card game against the dealer, accompanied by a JavaScript adaptation playable directly in the portfolio.",
+      "goal": "Get as close to 21 as possible without going over, choosing to draw a card or stand while scores are calculated automatically.",
+      "role": "The Python project manages the player and dealer hands, calculates scores and responds to keyboard input. The portfolio demo adapts these principles into an independent web interface.",
+      "challenge": "Handle different game states and calculate hand values when Aces can count as either 1 or 11.",
+      "solution": "Cards and hands use lists and structured data. Totals are recalculated after each action, adjusting Ace values and resolving the dealer turn separately.",
+      "skills": "Python, lists and dictionaries, conditional logic, keyboard events and adapting game mechanics to JavaScript.",
+      "caption": "The portfolio’s JavaScript demo table, distinct from the original Python program.",
+      "demoNote": "The web demo uses simplified rules without wagers or betting. GitHub hosts the original Python / Pygame Zero project."
+    },
+    "fantasy": {
+      "goal": "Grow a text-based game into a browser RPG combining story, combat, hero progression and exploration.",
+      "role": "The project brings together game mechanics, data organisation, interface work and visual integration. Its history page shows each stage of this evolution.",
+      "challenge": "Connect player choices, battles, inventory and skills while preserving coherent progression between chapters.",
+      "solution": "The JavaScript engine separates story data, game state and rendering. Local saves preserve progression, with a separate save space for each major version.",
+      "skills": "Game-state modelling, JavaScript, HTML / CSS, local saves, responsive interfaces and graphics integration.",
+      "combat": "A Chapter I battle: opponent, hero statistics and available actions.",
+      "inventory": "The inventory after the first boss loot, showing the item and its effects.",
+      "skillsPreview": "The three-path skill tree: Blade, Guardian and Alchemy."
     }
   }
 }

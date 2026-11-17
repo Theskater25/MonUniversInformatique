@@ -21,12 +21,29 @@ async function setLanguage(next) {
     const prefix=location.pathname.includes('/demos/')?'../':'';
     const response=await fetch(prefix+'assets/i18n/'+next+'.json');
     if(!response.ok) throw Error(response.status);
-    dictionary=await response.json();
+    const loaded=await response.json();
+    if(lang!==next)return;
+    dictionary=loaded;
     document.querySelectorAll('[data-i18n]').forEach(el=>{const val=translate(el.dataset.i18n);if(typeof val==='string')el.textContent=val;});
     document.querySelectorAll('[data-i18n-alt]').forEach(el=>{const val=translate(el.dataset.i18nAlt);if(typeof val==='string')el.setAttribute('alt',val);});
+    document.querySelectorAll('[data-i18n-aria]').forEach(el=>{const val=translate(el.dataset.i18nAria);if(typeof val==='string')el.setAttribute('aria-label',val)});
     updateFilterResult();
     if(typeof window.updateGameTranslation==='function')window.updateGameTranslation(dictionary.game||{});
   }catch(err){console.warn('Translation not loaded',err)}
+}
+function setupMobileMenu(){
+  const button=document.getElementById('menu-toggle');
+  const header=document.querySelector('.site-header');
+  const navigation=document.getElementById('site-navigation');
+  if(!button||!header||!navigation)return;
+  const mobile=matchMedia('(max-width:800px)');
+  const close=(restoreFocus=false)=>{header.classList.remove('is-menu-open');button.setAttribute('aria-expanded','false');if(restoreFocus)button.focus()};
+  button.hidden=false;header.classList.add('menu-enabled');
+  button.addEventListener('click',()=>{const open=button.getAttribute('aria-expanded')!=='true';button.setAttribute('aria-expanded',String(open));header.classList.toggle('is-menu-open',open)});
+  navigation.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>close()));
+  document.addEventListener('keydown',event=>{if(event.key==='Escape'&&button.getAttribute('aria-expanded')==='true')close(true)});
+  document.addEventListener('click',event=>{if(!header.contains(event.target))close()});
+  mobile.addEventListener('change',()=>{const hiddenFocus=mobile.matches&&navigation.contains(document.activeElement);close(hiddenFocus)});
 }
 function updateNavigation(){
   const hash=location.hash;
@@ -42,6 +59,7 @@ function updateNavigation(){
 window.addEventListener('hashchange',updateNavigation);
 document.addEventListener('DOMContentLoaded',()=>{
   updateNavigation();
+  setupMobileMenu();
   document.getElementById('lang-switch')?.addEventListener('click',()=>setLanguage(lang==='fr'?'en':'fr'));
   setLanguage(lang);
   const filters=[...document.querySelectorAll('[data-filter]')];

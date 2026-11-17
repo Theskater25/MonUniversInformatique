@@ -3,7 +3,9 @@
     "home": "Accueil",
     "projects": "Projets",
     "journey": "Parcours",
-    "contact": "Contact"
+    "contact": "Contact",
+    "menu": "Menu",
+    "label": "Navigation principale"
   },
   "hero": {
     "eyebrow": "PORTFOLIO · DÉVELOPPEMENT LOGICIEL & JEUX VIDÉO",
@@ -34,7 +36,10 @@
   "project": {
     "code": "Voir le code ↗",
     "play": "Essayer la démo →",
-    "repo": "Voir le dépôt ↗"
+    "repo": "Voir le dépôt ↗",
+    "details": "Voir la fiche →",
+    "playNow": "Jouer →",
+    "download": "Code Python (.zip) ↗"
   },
   "journey": {
     "kicker": "MON PARCOURS",
@@ -228,6 +233,56 @@
         "n4": "Campagne, statistiques, équilibrage et règles de progression conservés ; sauvegardes 2.7 séparées.",
         "source": "Source : rapport graphique 2.7 ↗"
       }
+    }
+  },
+  "caseStudy": {
+    "goal": "L’objectif",
+    "role": "Mon travail",
+    "challenge": "Le défi technique",
+    "solution": "La réalisation",
+    "skills": "Compétences mobilisées",
+    "team": "L’équipe",
+    "back": "← Retour aux projets",
+    "behind": "Dans les coulisses du projet",
+    "gallery": "Le jeu en action",
+    "galleryIntro": "Captures de la version 2.7, prises au cours d’une partie. Clique sur un aperçu pour l’ouvrir en grand."
+  },
+  "cases": {
+    "mancala": {
+      "documentTitle": "Mancala : mon travail sur l’affichage | Mon Univers Informatique",
+      "kicker": "PROJET COLLECTIF · PYTHON / PYGAME",
+      "title": "Mancala, du plateau à l’écran",
+      "intro": "Une adaptation du jeu de stratégie Mancala réalisée en équipe. Les deux joueurs choisissent un trou, répartissent les billes et tentent d’en récupérer davantage que leur adversaire.",
+      "goal": "Représenter un plateau de douze trous et deux trésors, afficher l’état de la partie et permettre aux joueurs de suivre leurs tours.",
+      "role": "J’ai réalisé l’affichage du jeu avec Pygame : le plateau, les billes, l’indication du joueur dont c’est le tour et les messages de fin de partie.",
+      "challenge": "Faire correspondre les images et les positions du plateau, puis rendre lisibles des quantités de billes qui changent au cours de la partie.",
+      "solution": "Le plateau et les billes sont dessinés sur des surfaces Pygame. Chaque trou possède des coordonnées et les billes sont réparties en petites grilles selon leur nombre. L’écran est redessiné pour refléter l’état du jeu.",
+      "skills": "Affichage 2D avec Pygame, manipulation d’images et de coordonnées, disposition des éléments et restitution visuelle de l’état d’un programme.",
+      "team": "Clément Faure, Clément Dufour et Tom Torrente. Ma contribution présentée ici porte sur l’affichage.",
+      "caption": "Le plateau, les billes et l’indication du tour dans la version Python / Pygame."
+    },
+    "blackjack": {
+      "documentTitle": "Blackjack : Python et démonstration web | Mon Univers Informatique",
+      "kicker": "PYTHON / PYGAME ZERO · ADAPTATION WEB",
+      "title": "Blackjack, des règles au jeu interactif",
+      "intro": "Un jeu de cartes en Python face au croupier, accompagné d’une adaptation JavaScript jouable directement dans le portfolio.",
+      "goal": "S’approcher de 21 sans le dépasser, en choisissant de tirer une carte ou de rester, avec un calcul automatique des scores.",
+      "role": "Le projet Python organise les mains du joueur et du croupier, calcule les scores et réagit au clavier. La démonstration du portfolio reprend ces principes dans une interface web indépendante.",
+      "challenge": "Gérer plusieurs états de partie et calculer la valeur d’une main lorsque les As peuvent valoir 1 ou 11.",
+      "solution": "Les cartes et les mains sont représentées par des listes et des données structurées. Le total est recalculé après chaque action, avec ajustement de la valeur des As et une résolution distincte pour le tour du croupier.",
+      "skills": "Python, listes et dictionnaires, logique conditionnelle, gestion d’événements clavier et adaptation d’une mécanique de jeu à JavaScript.",
+      "caption": "La table de la démonstration JavaScript du portfolio, distincte du programme Python original.",
+      "demoNote": "La démo web utilise des règles simplifiées, sans mises ni paris. Le dépôt GitHub conserve le projet Python / Pygame Zero original."
+    },
+    "fantasy": {
+      "goal": "Faire évoluer un jeu textuel en un RPG web qui associe récit, combats, progression du héros et exploration.",
+      "role": "Le projet réunit la conception des mécaniques, l’organisation des données, l’interface et l’intégration des ressources visuelles. La page d’historique montre les étapes de cette évolution.",
+      "challenge": "Relier les choix du joueur, les combats, l’inventaire et les compétences tout en conservant une progression cohérente entre les chapitres.",
+      "solution": "Le moteur JavaScript distingue les données du récit, l’état de la partie et le rendu. Les sauvegardes locales gardent la progression ; chaque grande version dispose de son propre espace de sauvegarde.",
+      "skills": "Modélisation d’un état de jeu, JavaScript, HTML / CSS, sauvegardes locales, interface responsive et intégration graphique.",
+      "combat": "Un combat du chapitre I : adversaire, statistiques du héros et actions disponibles.",
+      "inventory": "L’inventaire après un premier butin de boss, avec l’objet et ses effets.",
+      "skillsPreview": "L’arbre de compétences et ses trois voies : Lame, Gardien et Alchimie."
     }
   }
 }

@@ -1,44 +1,47 @@
-# Mon Univers Informatique — Version 2.0
+# Mon Univers Informatique
 
-> Version de développement privée. Le portfolio public existant n'est pas modifié.
+Portfolio de Clément Dufour : parcours, projets personnels et démonstrations.
 
-## Fonctionnalités incluses
+## Parcourir le site
 
-- Page d'accueil responsive et présentation actualisée pour le BUT Informatique
-- Galerie de projets et filtres par technologie
-- Démonstration de Blackjack jouable dans le navigateur, sans argent ni paris
-- Frise chronologique du parcours
-- Statistiques des dépôts publics GitHub, chargées depuis l'API publique (un indisponibilité de l'API affiche un message)
-- Traduction français / anglais mémorisée localement
-- Animations légères avec respect de la préférence « réduire les animations »
-- Emplacement prévu pour un CV PDF (aucun fichier CV n'a encore été ajouté)
+- `index.html` : présentation, sélection de projets, parcours, activité GitHub et contact.
+- `generic.html` : galerie avec filtres par technologie.
+- `the-fantasy.html` : présentation du projet, captures de gameplay et historique de la V1 Python à la 2.7.
+- `mancala.html` : fiche du projet collectif et contribution de Clément à l’affichage avec Pygame.
+- `blackjack.html` : présentation du projet Python et de l’adaptation web.
+- `creation-site-web.html` : évolution du portfolio, de sa première version à la version actuelle.
+- `demos/blackjack.html` : démonstration jouable dans le navigateur, sans mises ni paris.
 
-## Fichiers
+Le bouton « Jouer » de The Fantasy ouvre le site public du jeu. Le portfolio conserve aussi les liens vers son code et sa première version Python.
 
-- `index.html` : accueil, parcours, GitHub et contact
-- `generic.html` : projets et filtres
-- `assets/css/style.css` : design et responsive
-- `assets/js/app.js` : traductions, filtres et statistiques GitHub
-- `assets/i18n/fr.json` et `assets/i18n/en.json` : textes traduits
-- `demos/blackjack.html` et `demos/blackjack.js` : démo jouable
-- `assets/cv/README.md` : instructions pour ajouter ton CV
+## Interface et ressources
+
+- Français / anglais, avec mémorisation de la langue.
+- Menu dépliant sur mobile ; navigation conservée si JavaScript est désactivé.
+- Images locales en WebP, dimensions explicites et variantes adaptées à l’écran.
+- Navigation clavier, indicateurs de focus et respect de la préférence de réduction des animations.
+- Statistiques des dépôts publics issues de l’API publique GitHub, avec message de repli en cas d’indisponibilité.
+
+Les textes sont dans `assets/i18n/`, les styles dans `assets/css/style.css` et les interactions communes dans `assets/js/app.js`.
+
+## CV
+
+Le PDF du CV n’a pas encore été fourni. L’accueil affiche « CV : en préparation ». La procédure pour activer un vrai téléchargement est dans [assets/cv/README.md](assets/cv/README.md).
 
 ## Tester localement
 
-Utilise un petit serveur HTTP dans le dossier du dépôt (nécessaire pour charger les fichiers JSON de traduction) :
+Depuis la racine du dépôt :
 
 ```bash
-python -m http.server 8000
+python -m http.server 8126
 ```
 
-Puis ouvre http://localhost:8000/ et teste les pages, les filtres et le changement de langue.
+Ouvrir http://localhost:8126/. Un serveur HTTP est nécessaire pour les traductions JSON.
 
-## Avant publication
+## Sources et crédits
 
-1. Relire tous les textes et vérifier les informations personnelles.
-2. Ajouter un véritable CV PDF et activer le lien seulement après validation.
-3. Vérifier le formulaire de contact et les liens GitHub.
-4. Tester le responsive, le clavier, les deux langues et le Blackjack.
-5. Déployer uniquement dans le dépôt public quand tu décides de publier.
-
-**Note :** les statistiques GitHub font appel à l'API publique directement depuis le navigateur ; leur affichage peut être limité temporairement par le quota API. La démo Blackjack est une adaptation web indépendante du projet Python original.
+- Mancala : Clément Faure, Clément Dufour et Tom Torrente. Clément Dufour a réalisé l’affichage.
+- [Historique de The Fantasy](docs/the-fantasy-sources.md).
+- [Sources des captures](assets/images/projects/README.md).
+- [Sources des illustrations](assets/images/portraits/README.md).
+- La première version du portfolio utilise le thème Hyperspace de HTML5 UP, crédité sur sa page d’évolution.
