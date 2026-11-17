@@ -1,0 +1,97 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "journey": "Journey",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "PORTFOLIO · SOFTWARE & GAME DEVELOPMENT",
+    "lead": "I'm a Computer Science student in Arles, building programs, games and websites to learn through hands-on projects.",
+    "projects": "Explore my projects",
+    "contact": "Get in touch",
+    "status": "Learning and staying curious"
+  },
+  "about": {
+    "kicker": "ABOUT",
+    "title": "Learn, build, improve",
+    "text": "After studying computer science in high school, I joined the BUT Informatique degree at Aix-Marseille University, Arles campus. I'm interested in software development, especially video games. Personal and university projects help me sharpen my logic, creativity and programming skills."
+  },
+  "skills": {
+    "code": "Programming",
+    "web": "Web development",
+    "tools": "Tools & systems"
+  },
+  "featured": {
+    "kicker": "SELECTED WORK",
+    "title": "Featured projects",
+    "fantasy": "A fantasy RPG featuring character classes, battles and random events.",
+    "mancala": "A strategy game to practice algorithms and graphical interfaces.",
+    "blackjack": "A card game project covering rules, events and scoring.",
+    "all": "Browse all projects"
+  },
+  "project": {
+    "code": "View source ↗",
+    "play": "Try the demo →",
+    "repo": "View repository ↗"
+  },
+  "journey": {
+    "kicker": "MY JOURNEY",
+    "title": "Growing step by step",
+    "1title": "High school computer science",
+    "1text": "My first programming experiences with Python and small game projects.",
+    "2title": "Starting my computer science degree",
+    "2text": "Studying C++, databases, systems, web development and teamwork in Arles.",
+    "3title": "Personal projects",
+    "3text": "Improving The Fantasy, Mancala and this portfolio alongside university.",
+    "future": "GOAL",
+    "4title": "Software and game development",
+    "4text": "Keep improving, gain experience through internships and pursue further studies."
+  },
+  "github": {
+    "title": "My GitHub activity",
+    "subtitle": "A few indicators based on my public repositories.",
+    "repos": "Public repositories",
+    "languages": "Identified languages",
+    "updated": "Projects updated this year",
+    "profile": "Visit my GitHub ↗"
+  },
+  "contact": {
+    "kicker": "CONTACT",
+    "title": "Let's talk projects",
+    "text": "Have a question or an idea? Contact me through this form or browse my GitHub.",
+    "cv": "Resume: coming soon",
+    "name": "Name",
+    "message": "Message",
+    "send": "Send message"
+  },
+  "projects": {
+    "kicker": "WORK",
+    "title": "My programming projects",
+    "subtitle": "A selection of personal and university projects. Use the filters to browse by technology.",
+    "fantasy": "A Python fantasy RPG featuring classes, characters, battles and events.",
+    "mancala": "A Pygame strategy game with rules, turn-taking and a graphical interface.",
+    "blackjack": "A Python card game; a web demo is also available.",
+    "portfolio": "My personal portfolio showcasing my learning and projects.",
+    "matski": "A university project about database design and PostgreSQL queries.",
+    "cpp": "Practice with loops, functions, vectors and algorithms during my degree."
+  },
+  "filter": {
+    "all": "All",
+    "games": "Games"
+  },
+  "game": {
+    "title": "Blackjack demo",
+    "subtitle": "A small browser game based on my Python project. Get close to 21 without going over.",
+    "dealer": "Dealer",
+    "player": "You",
+    "hit": "Hit",
+    "stand": "Stand",
+    "new": "New game",
+    "win": "You win!",
+    "lose": "Dealer wins.",
+    "push": "It's a tie.",
+    "bust": "You went over 21.",
+    "dealerBust": "Dealer went over 21. You win!"
+  }
+}
