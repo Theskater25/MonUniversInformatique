@@ -14,8 +14,8 @@
   },
   "about": {
     "kicker": "À PROPOS",
-    "title": "Apprendre, créer, progresser",
-    "text": "Après la spécialité NSI au lycée, je poursuis mon parcours en BUT Informatique à l'IUT d'Aix-Marseille, site d'Arles. Je m'intéresse au développement logiciel et plus particulièrement aux jeux vidéo. Mes projets personnels et universitaires me permettent de développer ma logique, ma créativité et ma pratique du code."
+    "title": "Qui suis-je ?",
+    "text": "Passionné par l'informatique depuis mes premiers projets en NSI, je suis désormais étudiant en BUT Informatique à Arles. Je m'intéresse particulièrement à la programmation et au développement de jeux vidéo. J'aime imaginer des univers, créer des mécaniques de jeu et résoudre les problèmes rencontrés en cours de développement."
   },
   "skills": {
     "code": "Programmation",
@@ -68,13 +68,11 @@
   "projects": {
     "kicker": "RÉALISATIONS",
     "title": "Mes projets informatiques",
-    "subtitle": "Une sélection de mes projets personnels et universitaires. Utilise les filtres pour explorer les technologies.",
+    "subtitle": "Une sélection de mes jeux et projets personnels. Utilise les filtres pour explorer les technologies.",
     "fantasy": "RPG fantastique en Python avec classes, personnages, combats et événements.",
     "mancala": "Jeu de stratégie avec interface Pygame, règles et alternance des tours.",
     "blackjack": "Jeu de cartes en Python ; une démonstration web adaptée est également disponible.",
-    "portfolio": "Portfolio personnel pour présenter mon parcours et mes réalisations.",
-    "matski": "Travail universitaire de conception et de manipulation de données avec PostgreSQL.",
-    "cpp": "Structures de contrôle, fonctions, vecteurs et algorithmique pratiqués en formation."
+    "portfolio": "Portfolio personnel pour présenter mon parcours et mes réalisations."
   },
   "filter": {
     "all": "Tous",
@@ -93,5 +91,19 @@
     "push": "Égalité.",
     "bust": "Vous avez dépassé 21.",
     "dealerBust": "Le croupier a dépassé 21. Vous gagnez !"
+  },
+  "origins": {
+    "kicker": "MON UNIVERS",
+    "title": "Explorer l'informatique à ma façon",
+    "intro": "Je me suis intéressé à la programmation en réalisant mes premiers jeux. Aujourd'hui, je continue à expérimenter, à imaginer de nouvelles mécaniques et à découvrir différents domaines de l'informatique.",
+    "studentTitle": "L'étudiant que je suis",
+    "student": "Je poursuis un BUT Informatique pour progresser en développement, apprendre à travailler en équipe et découvrir de nouvelles méthodes de conception.",
+    "studentAlt": "Illustration de mon parcours étudiant",
+    "ideaTitle": "Des idées aux projets",
+    "idea": "J'aime partir d'une idée simple, construire un prototype, tester ce qui fonctionne et l'améliorer. C'est cette démarche qui me plaît dans les jeux vidéo.",
+    "ideaAlt": "Ampoule représentant la créativité",
+    "exploreTitle": "Exploration et apprentissage",
+    "explore": "Du Blackjack à Mancala et The Fantasy, chaque projet m'aide à mieux comprendre les algorithmes, les interfaces et la structure d'un programme.",
+    "exploreAlt": "Illustration d'exploration et de découverte"
   }
 }
