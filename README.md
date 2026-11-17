@@ -2,6 +2,8 @@
 
 Portfolio de Clément Dufour : parcours, projets personnels et démonstrations.
 
+Adresse principale : **https://theskater25.github.io/MonUniversInformatique/**. La [première version archivée](https://theskater25.github.io/MonUniversInformatique.github.io/v1/) reste accessible depuis la page d’évolution.
+
 ## Parcourir le site
 
 - `index.html` : présentation, sélection de projets, parcours, activité GitHub et contact.
