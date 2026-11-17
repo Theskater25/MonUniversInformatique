@@ -73,7 +73,8 @@
     "fantasy": "Un RPG né en Python, aujourd'hui développé pour le navigateur en JavaScript, avec classes, combats et trois chapitres à explorer.",
     "mancala": "Jeu de stratégie avec interface Pygame, règles et alternance des tours.",
     "blackjack": "Jeu de cartes en Python ; une démonstration web adaptée est également disponible.",
-    "portfolio": "Portfolio personnel pour présenter mon parcours et mes réalisations."
+    "portfolio": "Mon Univers Informatique : de mon premier portfolio à la V2. Découvre les deux versions et l'évolution du design et des fonctionnalités.",
+    "portfolioTitle": "Créer un site web"
   },
   "filter": {
     "all": "Tous",
@@ -112,5 +113,29 @@
     "mancala": "Capture du jeu Mancala en Python : plateau, billes et tour du joueur.",
     "blackjack": "Capture de la démo web Blackjack : cartes du joueur et du croupier.",
     "portfolio": "Aperçu de la page d'accueil de Mon Univers Informatique."
+  },
+  "evolution": {
+    "documentTitle": "De la V1 à la V2 | Mon Univers Informatique",
+    "kicker": "CRÉER UN SITE WEB",
+    "title": "Mon portfolio, de la V1 à la V2",
+    "intro": "Ce site est aussi un projet à part entière. Voici ma première version et la façon dont elle a évolué pour mieux présenter mon parcours et mes réalisations.",
+    "discover": "Voir l'évolution →",
+    "visitV1": "Visiter la première version ↗",
+    "sourceV1": "Voir le code de la V1 ↗",
+    "visitV2": "Explorer la version actuelle →",
+    "sourceV2": "Voir le code de la V2 ↗",
+    "v1label": "V1 · LES DÉBUTS",
+    "v1title": "Mon premier portfolio",
+    "v1text": "Créée au lycée à partir du thème Hyperspace de HTML5 UP, cette première version réunit une présentation, mes projets NSI, mes compétences et un formulaire de contact. Elle marque mes premiers pas dans la structure HTML, la mise en page CSS et la publication avec GitHub Pages.",
+    "v1alt": "Première version de Mon Univers Informatique : fond violet, menu latéral et présentation de Clément Dufour.",
+    "theme": "Thème original : Hyperspace — HTML5 UP ↗",
+    "v2label": "V2 · AUJOURD’HUI",
+    "v2title": "Un portfolio plus personnel",
+    "v2text": "La V2 adopte une identité sombre avec des touches de violet et de cyan. Elle ajoute des filtres de projets, une traduction français / anglais, des captures de jeux et une démo Blackjack jouable, tout en actualisant ma présentation.",
+    "changesTitle": "Ce qui a évolué",
+    "design": "Le design : une nouvelle palette, une présentation en cartes et des aperçus des projets réels.",
+    "features": "Les interactions : filtres par technologie, changement de langue et démonstration de jeu dans le navigateur.",
+    "content": "Le contenu : un parcours actualisé, des projets personnels mis en avant et un accès conservé à la première version.",
+    "back": "← Retour aux projets"
   }
 }

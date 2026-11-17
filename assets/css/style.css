@@ -33,3 +33,21 @@
 #the-fantasy,#timeline,#contact{scroll-margin-top:150px}
 @media(max-width:650px){.project-spotlight{grid-template-columns:1fr}.featured-projects{grid-template-columns:1fr}.project-spotlight .project-body{padding:24px}}
 @media(prefers-reduced-motion:reduce){.project-card:hover .has-preview img{transform:none}}
+
+/* Portfolio history: the first website alongside the current version. */
+.evolution-intro{max-width:900px}
+.evolution-intro h1{font-size:clamp(2.4rem,5vw,4.2rem);text-wrap:balance}
+.evolution-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;align-items:start}
+.version-card.panel{padding:0}
+.version-preview{display:block;aspect-ratio:16/10;background:var(--bg);overflow:hidden}
+.version-preview img{display:block;width:100%;height:100%;object-fit:contain}
+.version-body{padding:28px}
+.version-body h2{font-size:1.7rem;margin-top:.7rem}
+.version-body p{margin-bottom:1.3rem}
+.version-body .hint{margin:20px 0 0}
+.version-body .hint a{color:var(--accent)}
+.evolution-notes{margin:28px 0}
+.evolution-notes h2{font-size:1.6rem}
+.evolution-notes ul{margin:0;padding-left:20px;color:var(--muted)}
+.evolution-notes li+li{margin-top:10px}
+@media(max-width:750px){.evolution-grid{grid-template-columns:1fr}.version-body{padding:24px}}

@@ -73,7 +73,8 @@
     "fantasy": "An RPG that started in Python and is now built for the browser with JavaScript, featuring classes, battles and three chapters to explore.",
     "mancala": "A Pygame strategy game with rules, turn-taking and a graphical interface.",
     "blackjack": "A Python card game; a web demo is also available.",
-    "portfolio": "My personal portfolio showcasing my learning and projects."
+    "portfolio": "Mon Univers Informatique: from my first portfolio to V2. Explore both versions and see how the design and features have evolved.",
+    "portfolioTitle": "Building a website"
   },
   "filter": {
     "all": "All",
@@ -112,5 +113,29 @@
     "mancala": "Screenshot of the Python Mancala game: board, seeds and current player.",
     "blackjack": "Screenshot of the Blackjack web demo: player and dealer cards.",
     "portfolio": "Preview of the Mon Univers Informatique homepage."
+  },
+  "evolution": {
+    "documentTitle": "From V1 to V2 | Mon Univers Informatique",
+    "kicker": "BUILDING A WEBSITE",
+    "title": "My portfolio, from V1 to V2",
+    "intro": "This website is a project in its own right. Here is my first version and how it evolved to better showcase my journey and my work.",
+    "discover": "See the evolution →",
+    "visitV1": "Visit the first version ↗",
+    "sourceV1": "View V1 source ↗",
+    "visitV2": "Explore the current version →",
+    "sourceV2": "View V2 source ↗",
+    "v1label": "V1 · THE BEGINNING",
+    "v1title": "My first portfolio",
+    "v1text": "Created in high school using the Hyperspace theme by HTML5 UP, this first version brings together an introduction, my school programming projects, my skills and a contact form. It marks my first steps with HTML structure, CSS layouts and publishing through GitHub Pages.",
+    "v1alt": "The first Mon Univers Informatique website: a purple background, a sidebar menu and an introduction to Clément Dufour.",
+    "theme": "Original theme: Hyperspace — HTML5 UP ↗",
+    "v2label": "V2 · TODAY",
+    "v2title": "A more personal portfolio",
+    "v2text": "V2 introduces a dark design with purple and cyan accents. It adds project filters, French / English translation, game screenshots and a playable Blackjack demo, alongside an updated introduction.",
+    "changesTitle": "What has changed",
+    "design": "Design: a new palette, project cards and previews of the actual projects.",
+    "features": "Interactions: technology filters, a language switch and a game demo in the browser.",
+    "content": "Content: an updated journey, featured personal projects and continued access to the first version.",
+    "back": "← Back to projects"
   }
 }

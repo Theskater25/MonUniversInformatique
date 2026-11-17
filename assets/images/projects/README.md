@@ -8,3 +8,5 @@ Captures produites à partir des projets réels de Clément Dufour, sans illustr
 - `portfolio.jpg` : page d'accueil de cette version du portfolio.
 
 Les aperçus sont stockés dans le portfolio pour éviter une dépendance aux fichiers des autres dépôts. Leurs textes alternatifs sont traduits dans `assets/i18n/fr.json` et `assets/i18n/en.json`.
+
+- `portfolio-v1.jpg` : capture du code original de la première version, consultable sur https://theskater25.github.io/MonUniversInformatique.github.io/. Source correspondante : commit `24863860003f6ea8bbb5f77a32943d96821563c0`. Cette version utilise le thème Hyperspace de HTML5 UP, dont les crédits sont conservés sur la page d'évolution.
