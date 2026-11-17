@@ -16,6 +16,7 @@ async function setLanguage(next) {
     if(!response.ok) throw Error(response.status);
     dictionary=await response.json();
     document.querySelectorAll('[data-i18n]').forEach(el=>{const val=translate(el.dataset.i18n);if(typeof val==='string')el.textContent=val;});
+    document.querySelectorAll('[data-i18n-alt]').forEach(el=>{const val=translate(el.dataset.i18nAlt);if(typeof val==='string')el.setAttribute('alt',val);});
     if(typeof window.updateGameTranslation==='function')window.updateGameTranslation(dictionary.game||{});
   }catch(err){console.warn('Translation not loaded',err)}
 }
