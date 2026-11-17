@@ -137,5 +137,97 @@
     "features": "Interactions: technology filters, a language switch and a game demo in the browser.",
     "content": "Content: an updated journey, featured personal projects and continued access to the first version.",
     "back": "← Back to projects"
+  },
+  "fantasyHistory": {
+    "documentTitle": "The Fantasy: evolution and patch notes | Mon Univers Informatique",
+    "kicker": "FROM THE TERMINAL TO A WEB RPG",
+    "title": "The Fantasy, an evolving adventure",
+    "intro": "It all began with a Python game in the terminal. Across its versions, The Fantasy has grown into a browser RPG with a campaign, skills, quests and a pixel art world.",
+    "discover": "Evolution and patch notes →",
+    "pythonLabel": "V1 · PYTHON + SQLITE",
+    "pythonTitle": "The very first adventure",
+    "pythonText": "The original Python project is still available on GitHub. Its text interface and ASCII illustrations lay the foundations: heroes, choices, combat and experience.",
+    "pythonExcerpt": "An abridged excerpt from the original French Python interface.",
+    "pythonSource": "View the Python program ↗",
+    "pythonDownload": "Download the Python source (.zip) ↗",
+    "webLabel": "V2.7 · HTML / CSS / JAVASCRIPT",
+    "webTitle": "The game enters a new dimension",
+    "webText": "Version 2.7 builds on the RPG engine developed through previous updates and expands the visual world with characters, scenery, exploration and pixel art combat.",
+    "webSource": "View the 2.7 source ↗",
+    "versionsTitle": "Versions and patch notes",
+    "versionsIntro": "Each stage outlines the main changes and links to the original code or documents.",
+    "notes": "Read the patch notes",
+    "back": "← Back to projects",
+    "versions": {
+      "v1": {
+        "title": "The Python beginnings",
+        "summary": "A text-based RPG created in high school, with its own world, choices and battles.",
+        "n1": "Terminal interface with ASCII illustrations.",
+        "n2": "Ten hero classes, each with its own statistics and special skill.",
+        "n3": "Turn-based combat, enemies, bosses, events and experience-based progression.",
+        "n4": "An SQLite database organises classes, skills, players and enemies.",
+        "source": "Source: Python program ↗"
+      },
+      "v2": {
+        "title": "Moving to the browser",
+        "summary": "The project becomes The Fantasy: The Great Adventure, with a browser-based interface.",
+        "n1": "The engine and interface move to JavaScript, with HTML and CSS.",
+        "n2": "The adventure expands to three chapters and twenty character classes.",
+        "n3": "Local saves, an achievement profile and settings are added.",
+        "n4": "Menus, enemy portraits, music and ambience support the story.",
+        "source": "Source: V2 code ↗"
+      },
+      "v22": {
+        "title": "Deeper RPG foundations",
+        "summary": "Combat, equipment and progression become more substantial.",
+        "n1": "Visible enemy intentions, damage-reducing defence and potions restored at camp.",
+        "n2": "Inventory with multiple item rarities, equipment and cumulative bonuses.",
+        "n3": "A three-path skill tree, specialisations and hero continuity between chapters.",
+        "n4": "Branching scenes and the cartographer quest in Chapter II.",
+        "n5": "Six languages, improved mobile layouts and offline interface caching through a PWA.",
+        "source": "Source: 2.2 changelog ↗"
+      },
+      "v23": {
+        "title": "Journal, quests and usability",
+        "summary": "The adventure becomes easier to follow, with more complete hero tracking.",
+        "n1": "A journal with objectives, recent decisions and a bestiary to uncover.",
+        "n2": "Side quests across all three chapters, choice consequences and a getting-started guide.",
+        "n3": "A second boss phase below 50% health and fixes for actions triggering twice.",
+        "n4": "A streamlined phone interface with accessible actions and on-demand panels.",
+        "n5": "Achievements reorganised into main objectives, a platinum achievement and class bonuses.",
+        "source": "Source: historical changelog ↗"
+      },
+      "v24": {
+        "title": "A pixel art direction",
+        "summary": "A graphics branch prepares the characters and scenery later incorporated into 2.6.",
+        "n1": "Twenty distinct PNG characters: five enemies and fifteen bosses.",
+        "n2": "Eighteen scenery props assembled into seven environments.",
+        "n3": "Pixel art styling and arena compositions matched to the story locations.",
+        "n4": "These contributions are documented in the 2.6 merge report.",
+        "source": "Source: 2.4 contributions in the merge report ↗"
+      },
+      "v25": {
+        "title": "A skipped number",
+        "summary": "Version number 2.5 was not used: the history moves from 2.4 to 2.6."
+      },
+      "v26": {
+        "title": "Merging gameplay and pixel art",
+        "summary": "The RPG engine from 2.3 meets the visual identity from 2.4.",
+        "n1": "Preserves the campaign, inventory, talents, quests, journal and achievements from 2.3.",
+        "n2": "Integrates the twenty characters and seven environments from 2.4.",
+        "n3": "Interface and combat adjustments keep characters and controls visible on mobile.",
+        "n4": "Saves, profile, settings and offline cache are specific to 2.6.",
+        "source": "Source: 2.6 merge report ↗"
+      },
+      "v27": {
+        "title": "A fuller visual world",
+        "summary": "The graphics update of 12 November 2026 enriches the game’s presentation.",
+        "n1": "Twenty classes represented by full characters in selection and on the hero sheet.",
+        "n2": "Fourteen backgrounds and five new sheets for weapons, equipment, adventure items, forge and village.",
+        "n3": "Combat backgrounds and exploration scenes matched to the current location.",
+        "n4": "Campaign, statistics, balance and progression rules preserved; 2.7 saves kept separate.",
+        "source": "Source: 2.7 graphics report ↗"
+      }
+    }
   }
 }

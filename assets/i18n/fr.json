@@ -137,5 +137,97 @@
     "features": "Les interactions : filtres par technologie, changement de langue et démonstration de jeu dans le navigateur.",
     "content": "Le contenu : un parcours actualisé, des projets personnels mis en avant et un accès conservé à la première version.",
     "back": "← Retour aux projets"
+  },
+  "fantasyHistory": {
+    "documentTitle": "The Fantasy : évolution et notes de version | Mon Univers Informatique",
+    "kicker": "DU TERMINAL AU RPG WEB",
+    "title": "The Fantasy, une aventure qui évolue",
+    "intro": "Tout a commencé par un jeu Python dans le terminal. Au fil des versions, The Fantasy est devenu un RPG web avec campagne, compétences, quêtes et univers en pixel art.",
+    "discover": "Évolution et notes de version →",
+    "pythonLabel": "V1 · PYTHON + SQLITE",
+    "pythonTitle": "La toute première aventure",
+    "pythonText": "Le projet d’origine en Python reste accessible sur GitHub. Son interface textuelle et ses illustrations ASCII posent les bases du jeu : héros, choix, combats et expérience.",
+    "pythonExcerpt": "Extrait abrégé de l’interface Python d’origine.",
+    "pythonSource": "Voir le programme Python ↗",
+    "pythonDownload": "Télécharger le code Python (.zip) ↗",
+    "webLabel": "V2.7 · HTML / CSS / JAVASCRIPT",
+    "webTitle": "Le jeu a changé de dimension",
+    "webText": "La version 2.7 reprend le moteur RPG enrichi au fil des mises à jour et complète l’univers visuel : personnages, décors, exploration et combats en pixel art.",
+    "webSource": "Voir le code de la 2.7 ↗",
+    "versionsTitle": "Versions et notes de mise à jour",
+    "versionsIntro": "Chaque étape présente les principaux changements, avec un lien vers le code ou les documents d’origine.",
+    "notes": "Lire les notes de version",
+    "back": "← Retour aux projets",
+    "versions": {
+      "v1": {
+        "title": "Les débuts en Python",
+        "summary": "Un jeu de rôle textuel réalisé en NSI, avec son univers, ses choix et ses combats.",
+        "n1": "Interface dans le terminal, avec des illustrations en caractères ASCII.",
+        "n2": "Dix classes de héros, chacune avec ses statistiques et sa compétence spéciale.",
+        "n3": "Combats au tour par tour, ennemis, boss, événements et progression par expérience.",
+        "n4": "Une base SQLite organise les classes, compétences, joueurs et ennemis.",
+        "source": "Source : programme Python ↗"
+      },
+      "v2": {
+        "title": "Le passage au navigateur",
+        "summary": "Le projet devient The Fantasy: The Great Adventure, jouable avec une interface web.",
+        "n1": "Le moteur et l’interface passent en JavaScript, avec HTML et CSS.",
+        "n2": "L’aventure s’étend à trois chapitres et vingt classes de personnages.",
+        "n3": "Ajout de sauvegardes locales, d’un profil de trophées et de réglages.",
+        "n4": "Les menus, portraits d’ennemis, musiques et ambiances accompagnent le récit.",
+        "source": "Source : code de la V2 ↗"
+      },
+      "v22": {
+        "title": "Des fondations RPG plus riches",
+        "summary": "Les combats, l’équipement et la progression prennent davantage de place.",
+        "n1": "Intentions ennemies visibles, défense réduisant les dégâts et potions récupérables au repos.",
+        "n2": "Inventaire avec objets de plusieurs raretés, équipement et bonus cumulables.",
+        "n3": "Arbre de compétences à trois voies, spécialisations et continuité du héros entre les chapitres.",
+        "n4": "Scènes à embranchements et quête du cartographe au chapitre II.",
+        "n5": "Six langues, interface mobile affinée et cache hors ligne de l’interface via une PWA.",
+        "source": "Source : journal de la 2.2 ↗"
+      },
+      "v23": {
+        "title": "Le journal, les quêtes et le confort de jeu",
+        "summary": "L’aventure devient plus lisible et le suivi du héros plus complet.",
+        "n1": "Journal avec objectifs, décisions récentes et bestiaire à découvrir.",
+        "n2": "Quêtes secondaires dans les trois chapitres, conséquences des choix et guide de départ.",
+        "n3": "Seconde phase des boss sous 50 % de leurs PV et corrections des actions déclenchées deux fois.",
+        "n4": "Interface téléphone allégée : actions à portée de main et panneaux ouverts à la demande.",
+        "n5": "Trophées réorganisés avec objectifs principaux, platine et bonus de classes.",
+        "source": "Source : journal historique ↗"
+      },
+      "v24": {
+        "title": "Une direction graphique en pixel art",
+        "summary": "Une branche graphique prépare les personnages et les décors repris dans la 2.6.",
+        "n1": "Vingt personnages PNG distincts : cinq ennemis et quinze boss.",
+        "n2": "Dix-huit accessoires de décor assemblés en sept ambiances.",
+        "n3": "Habillage pixel art et compositions d’arène adaptés aux lieux du récit.",
+        "n4": "Ces apports sont documentés dans le rapport de fusion 2.6.",
+        "source": "Source : apports de la 2.4 dans le rapport de fusion ↗"
+      },
+      "v25": {
+        "title": "Un numéro sauté",
+        "summary": "Le numéro 2.5 n’a pas été utilisé : la chronologie passe de la 2.4 à la 2.6."
+      },
+      "v26": {
+        "title": "La fusion du gameplay et du pixel art",
+        "summary": "Le moteur RPG de la 2.3 rencontre l’identité graphique de la 2.4.",
+        "n1": "Conservation de la campagne, de l’inventaire, des talents, des quêtes, du journal et des trophées de la 2.3.",
+        "n2": "Intégration des vingt personnages et des sept décors issus de la 2.4.",
+        "n3": "Raccords de l’interface et des combats pour garder les personnages et les commandes visibles sur mobile.",
+        "n4": "Sauvegardes, profil, paramètres et cache hors ligne propres à la 2.6.",
+        "source": "Source : rapport de fusion 2.6 ↗"
+      },
+      "v27": {
+        "title": "Un univers visuel plus complet",
+        "summary": "La mise à jour graphique du 12 novembre 2026 enrichit la présentation du jeu.",
+        "n1": "Vingt classes représentées par un personnage complet dans la sélection et la fiche du héros.",
+        "n2": "Quatorze fonds et cinq nouvelles planches pour les armes, équipements, objets d’aventure, forge et village.",
+        "n3": "Décors de combat et scènes d’exploration adaptés au lieu traversé.",
+        "n4": "Campagne, statistiques, équilibrage et règles de progression conservés ; sauvegardes 2.7 séparées.",
+        "source": "Source : rapport graphique 2.7 ↗"
+      }
+    }
   }
 }
