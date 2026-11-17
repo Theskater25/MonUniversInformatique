@@ -15,3 +15,21 @@
 .origin-story:hover{transform:translateY(-3px);border-color:#7569bd}
 @media(max-width:650px){.origin-story,.origin-story:nth-child(even){grid-template-columns:1fr}.origin-story:nth-child(even) img{order:0}.origin-story img{height:190px;min-height:190px}.origin-story>div{padding:22px}}
 @media(prefers-reduced-motion:reduce){.origin-story:hover{transform:none}}
+
+
+/* Real project previews and a larger spotlight for The Fantasy. */
+.site-header nav a{position:relative;padding:6px 0}
+.site-header nav a[aria-current]{color:var(--text);font-weight:700}
+.site-header nav a[aria-current]::after{content:"";position:absolute;bottom:0;left:0;right:0;height:2px;border-radius:2px;background:linear-gradient(90deg,var(--accent),var(--cyan))}
+.featured-projects{grid-template-columns:repeat(2,minmax(0,1fr))}
+.project-visual.has-preview{height:auto;aspect-ratio:16/10;display:block;isolation:isolate;background:#0b0e19;overflow:hidden}
+.project-visual.has-preview img{width:100%;height:100%;display:block;object-fit:contain;transition:transform .35s}
+.project-visual.has-preview small{position:absolute;bottom:12px;left:12px;max-width:calc(100% - 24px);padding:4px 10px;border:1px solid #ffffff30;border-radius:6px;background:#0b0e19ed;color:#f3f5ff;font-weight:700;letter-spacing:.1em}
+.project-card:hover .has-preview img{transform:scale(1.025)}
+.project-spotlight{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);align-items:center;border-color:#63598c;background:linear-gradient(135deg,#151a2c,#211c38)}
+.project-spotlight .project-body{padding:clamp(24px,3vw,40px)}
+.project-spotlight h2,.project-spotlight h3{font-size:clamp(1.5rem,2.6vw,2.15rem);margin:.7rem 0 1rem}
+.project-spotlight .project-body p{min-height:0;margin-bottom:1.3rem}
+#the-fantasy,#timeline,#contact{scroll-margin-top:150px}
+@media(max-width:650px){.project-spotlight{grid-template-columns:1fr}.featured-projects{grid-template-columns:1fr}.project-spotlight .project-body{padding:24px}}
+@media(prefers-reduced-motion:reduce){.project-card:hover .has-preview img{transform:none}}

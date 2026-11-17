@@ -25,10 +25,11 @@
   "featured": {
     "kicker": "SELECTED WORK",
     "title": "Featured projects",
-    "fantasy": "A fantasy RPG featuring character classes, battles and random events.",
+    "fantasy": "My fantasy RPG: character classes, battles and an adventure across three chapters. It started in Python and is now evolving as a browser game.",
     "mancala": "A strategy game to practice algorithms and graphical interfaces.",
     "blackjack": "A card game project covering rules, events and scoring.",
-    "all": "Browse all projects"
+    "all": "Browse all projects",
+    "spotlight": "PROJECT SPOTLIGHT"
   },
   "project": {
     "code": "View source ↗",
@@ -69,7 +70,7 @@
     "kicker": "WORK",
     "title": "My programming projects",
     "subtitle": "A selection of personal projects and games. Use the filters to browse by technology.",
-    "fantasy": "A Python fantasy RPG featuring classes, characters, battles and events.",
+    "fantasy": "An RPG that started in Python and is now built for the browser with JavaScript, featuring classes, battles and three chapters to explore.",
     "mancala": "A Pygame strategy game with rules, turn-taking and a graphical interface.",
     "blackjack": "A Python card game; a web demo is also available.",
     "portfolio": "My personal portfolio showcasing my learning and projects."
@@ -105,5 +106,11 @@
     "exploreTitle": "Exploration and learning",
     "explore": "From Blackjack to Mancala and The Fantasy, each project helps me understand algorithms, interfaces and program structure.",
     "exploreAlt": "Illustration of discovery and exploration"
+  },
+  "previews": {
+    "fantasy": "The Fantasy title screen, featuring a pixel art forest and the game menu.",
+    "mancala": "Screenshot of the Python Mancala game: board, seeds and current player.",
+    "blackjack": "Screenshot of the Blackjack web demo: player and dealer cards.",
+    "portfolio": "Preview of the Mon Univers Informatique homepage."
   }
 }

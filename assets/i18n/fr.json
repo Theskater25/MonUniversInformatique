@@ -25,10 +25,11 @@
   "featured": {
     "kicker": "SÉLECTION",
     "title": "Projets à découvrir",
-    "fantasy": "Un RPG avec classes, combats et événements imaginé autour d'un univers fantastique.",
+    "fantasy": "Mon RPG fantastique : des classes de personnages, des combats et une aventure en trois chapitres. Né en Python, il évolue aujourd'hui en jeu web.",
     "mancala": "Un jeu de stratégie pour travailler la logique et les interfaces graphiques.",
     "blackjack": "Un projet de jeu de cartes avec gestion des règles et des scores.",
-    "all": "Voir tous les projets"
+    "all": "Voir tous les projets",
+    "spotlight": "PROJET À LA UNE"
   },
   "project": {
     "code": "Voir le code ↗",
@@ -69,7 +70,7 @@
     "kicker": "RÉALISATIONS",
     "title": "Mes projets informatiques",
     "subtitle": "Une sélection de mes jeux et projets personnels. Utilise les filtres pour explorer les technologies.",
-    "fantasy": "RPG fantastique en Python avec classes, personnages, combats et événements.",
+    "fantasy": "Un RPG né en Python, aujourd'hui développé pour le navigateur en JavaScript, avec classes, combats et trois chapitres à explorer.",
     "mancala": "Jeu de stratégie avec interface Pygame, règles et alternance des tours.",
     "blackjack": "Jeu de cartes en Python ; une démonstration web adaptée est également disponible.",
     "portfolio": "Portfolio personnel pour présenter mon parcours et mes réalisations."
@@ -105,5 +106,11 @@
     "exploreTitle": "Exploration et apprentissage",
     "explore": "Du Blackjack à Mancala et The Fantasy, chaque projet m'aide à mieux comprendre les algorithmes, les interfaces et la structure d'un programme.",
     "exploreAlt": "Illustration d'exploration et de découverte"
+  },
+  "previews": {
+    "fantasy": "Écran d'accueil de The Fantasy, avec une forêt en pixel art et le menu du jeu.",
+    "mancala": "Capture du jeu Mancala en Python : plateau, billes et tour du joueur.",
+    "blackjack": "Capture de la démo web Blackjack : cartes du joueur et du croupier.",
+    "portfolio": "Aperçu de la page d'accueil de Mon Univers Informatique."
   }
 }

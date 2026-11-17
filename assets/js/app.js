@@ -4,6 +4,13 @@ const STORAGE='mui-language';
 const getLang=()=>{try{return localStorage.getItem(STORAGE)==='en'?'en':'fr'}catch{return 'fr'}};
 let dictionary={}; let lang=getLang();
 const translate=(key)=>key.split('.').reduce((o,k)=>o?.[k],dictionary);
+function updateFilterResult(){
+  const message=document.getElementById('filter-result');
+  if(message){
+    const count=document.querySelectorAll('[data-tags]:not([hidden])').length;
+    message.textContent=count+' '+(lang==='en'?'projects':'projets');
+  }
+}
 async function setLanguage(next) {
   lang=next;
   try {localStorage.setItem(STORAGE,next)} catch {}
@@ -17,19 +24,33 @@ async function setLanguage(next) {
     dictionary=await response.json();
     document.querySelectorAll('[data-i18n]').forEach(el=>{const val=translate(el.dataset.i18n);if(typeof val==='string')el.textContent=val;});
     document.querySelectorAll('[data-i18n-alt]').forEach(el=>{const val=translate(el.dataset.i18nAlt);if(typeof val==='string')el.setAttribute('alt',val);});
+    updateFilterResult();
     if(typeof window.updateGameTranslation==='function')window.updateGameTranslation(dictionary.game||{});
   }catch(err){console.warn('Translation not loaded',err)}
 }
+function updateNavigation(){
+  const hash=location.hash;
+  const home=location.pathname.endsWith('/')||location.pathname.endsWith('/index.html');
+  if(!home)return;
+  document.querySelectorAll('.site-header nav a').forEach(link=>{
+    const target=new URL(link.href);
+    const active=target.hash?target.hash===hash:link.dataset.i18n==='nav.home'&&!hash;
+    if(active)link.setAttribute('aria-current',target.hash?'location':'page');
+    else link.removeAttribute('aria-current');
+  });
+}
+window.addEventListener('hashchange',updateNavigation);
 document.addEventListener('DOMContentLoaded',()=>{
+  updateNavigation();
   document.getElementById('lang-switch')?.addEventListener('click',()=>setLanguage(lang==='fr'?'en':'fr'));
   setLanguage(lang);
   const filters=[...document.querySelectorAll('[data-filter]')];
   const cards=[...document.querySelectorAll('[data-tags]')];
   filters.forEach(btn=>btn.addEventListener('click',()=>{
-    const tag=btn.dataset.filter;let count=0;
+    const tag=btn.dataset.filter;
     filters.forEach(b=>{const on=b===btn;b.classList.toggle('active',on);b.setAttribute('aria-pressed',String(on))});
-    cards.forEach(card=>{const match=tag==='all'||card.dataset.tags.split(' ').includes(tag);card.hidden=!match;if(match)count++});
-    const msg=document.getElementById('filter-result');if(msg)msg.textContent=count+' '+(lang==='en'?'projects':'projets');
+    cards.forEach(card=>{const match=tag==='all'||card.dataset.tags.split(' ').includes(tag);card.hidden=!match});
+    updateFilterResult();
   }));
   if(filters.length)filters[0].click();
   if('IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches){
