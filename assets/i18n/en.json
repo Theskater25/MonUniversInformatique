@@ -14,8 +14,8 @@
   },
   "about": {
     "kicker": "ABOUT",
-    "title": "Learn, build, improve",
-    "text": "After studying computer science in high school, I joined the BUT Informatique degree at Aix-Marseille University, Arles campus. I'm interested in software development, especially video games. Personal and university projects help me sharpen my logic, creativity and programming skills."
+    "title": "About me",
+    "text": "I've been passionate about computing since my first high school programming projects, and I'm now studying computer science in Arles. I am particularly interested in programming and game development. I enjoy inventing worlds, building gameplay mechanics and solving challenges along the way."
   },
   "skills": {
     "code": "Programming",
@@ -68,13 +68,11 @@
   "projects": {
     "kicker": "WORK",
     "title": "My programming projects",
-    "subtitle": "A selection of personal and university projects. Use the filters to browse by technology.",
+    "subtitle": "A selection of personal projects and games. Use the filters to browse by technology.",
     "fantasy": "A Python fantasy RPG featuring classes, characters, battles and events.",
     "mancala": "A Pygame strategy game with rules, turn-taking and a graphical interface.",
     "blackjack": "A Python card game; a web demo is also available.",
-    "portfolio": "My personal portfolio showcasing my learning and projects.",
-    "matski": "A university project about database design and PostgreSQL queries.",
-    "cpp": "Practice with loops, functions, vectors and algorithms during my degree."
+    "portfolio": "My personal portfolio showcasing my learning and projects."
   },
   "filter": {
     "all": "All",
@@ -93,5 +91,19 @@
     "push": "It's a tie.",
     "bust": "You went over 21.",
     "dealerBust": "Dealer went over 21. You win!"
+  },
+  "origins": {
+    "kicker": "MY WORLD",
+    "title": "Exploring computing my own way",
+    "intro": "I became interested in programming by creating my first games. Today I keep experimenting, imagining new mechanics and discovering different areas of computing.",
+    "studentTitle": "My student journey",
+    "student": "I'm studying computer science to improve my development skills, learn teamwork and discover new design approaches.",
+    "studentAlt": "Illustration of my student journey",
+    "ideaTitle": "From ideas to projects",
+    "idea": "I like starting with a simple idea, building a prototype, testing what works and improving it. That's what I enjoy most about game development.",
+    "ideaAlt": "Light bulb representing creativity",
+    "exploreTitle": "Exploration and learning",
+    "explore": "From Blackjack to Mancala and The Fantasy, each project helps me understand algorithms, interfaces and program structure.",
+    "exploreAlt": "Illustration of discovery and exploration"
   }
 }
