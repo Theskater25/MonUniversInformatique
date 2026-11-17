@@ -1,0 +1,97 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "projects": "Projets",
+    "journey": "Parcours",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "PORTFOLIO · DÉVELOPPEMENT LOGICIEL & JEUX VIDÉO",
+    "lead": "Étudiant en BUT Informatique à Arles, je crée des programmes, des jeux et des projets web pour apprendre en expérimentant.",
+    "projects": "Découvrir mes projets",
+    "contact": "Me contacter",
+    "status": "En apprentissage et toujours curieux"
+  },
+  "about": {
+    "kicker": "À PROPOS",
+    "title": "Apprendre, créer, progresser",
+    "text": "Après la spécialité NSI au lycée, je poursuis mon parcours en BUT Informatique à l'IUT d'Aix-Marseille, site d'Arles. Je m'intéresse au développement logiciel et plus particulièrement aux jeux vidéo. Mes projets personnels et universitaires me permettent de développer ma logique, ma créativité et ma pratique du code."
+  },
+  "skills": {
+    "code": "Programmation",
+    "web": "Développement web",
+    "tools": "Outils & systèmes"
+  },
+  "featured": {
+    "kicker": "SÉLECTION",
+    "title": "Projets à découvrir",
+    "fantasy": "Un RPG avec classes, combats et événements imaginé autour d'un univers fantastique.",
+    "mancala": "Un jeu de stratégie pour travailler la logique et les interfaces graphiques.",
+    "blackjack": "Un projet de jeu de cartes avec gestion des règles et des scores.",
+    "all": "Voir tous les projets"
+  },
+  "project": {
+    "code": "Voir le code ↗",
+    "play": "Essayer la démo →",
+    "repo": "Voir le dépôt ↗"
+  },
+  "journey": {
+    "kicker": "MON PARCOURS",
+    "title": "Une progression étape par étape",
+    "1title": "Lycée et spécialité NSI",
+    "1text": "Découverte de la programmation, de Python et premiers projets de jeux.",
+    "2title": "Entrée en BUT Informatique",
+    "2text": "Développement en C++, bases de données, systèmes, web et projets en équipe à Arles.",
+    "3title": "Projets personnels",
+    "3text": "Amélioration de The Fantasy, Mancala et de mon portfolio en parallèle de mes études.",
+    "future": "OBJECTIF",
+    "4title": "Développement logiciel et jeux vidéo",
+    "4text": "Continuer à développer mes compétences, réaliser des stages et poursuivre mes études."
+  },
+  "github": {
+    "title": "Mon activité sur GitHub",
+    "subtitle": "Quelques indicateurs issus de mes dépôts publics.",
+    "repos": "Dépôts publics",
+    "languages": "Langages identifiés",
+    "updated": "Projets mis à jour cette année",
+    "profile": "Voir mon GitHub ↗"
+  },
+  "contact": {
+    "kicker": "CONTACT",
+    "title": "Parlons projets",
+    "text": "Tu as une question ou une idée de collaboration ? Tu peux me contacter via ce formulaire ou consulter mon GitHub.",
+    "cv": "CV : en préparation",
+    "name": "Nom",
+    "message": "Message",
+    "send": "Envoyer le message"
+  },
+  "projects": {
+    "kicker": "RÉALISATIONS",
+    "title": "Mes projets informatiques",
+    "subtitle": "Une sélection de mes projets personnels et universitaires. Utilise les filtres pour explorer les technologies.",
+    "fantasy": "RPG fantastique en Python avec classes, personnages, combats et événements.",
+    "mancala": "Jeu de stratégie avec interface Pygame, règles et alternance des tours.",
+    "blackjack": "Jeu de cartes en Python ; une démonstration web adaptée est également disponible.",
+    "portfolio": "Portfolio personnel pour présenter mon parcours et mes réalisations.",
+    "matski": "Travail universitaire de conception et de manipulation de données avec PostgreSQL.",
+    "cpp": "Structures de contrôle, fonctions, vecteurs et algorithmique pratiqués en formation."
+  },
+  "filter": {
+    "all": "Tous",
+    "games": "Jeux vidéo"
+  },
+  "game": {
+    "title": "Démo Blackjack",
+    "subtitle": "Mini-jeu web inspiré de mon projet Python. Objectif : se rapprocher de 21 sans le dépasser.",
+    "dealer": "Croupier",
+    "player": "Vous",
+    "hit": "Tirer une carte",
+    "stand": "Rester",
+    "new": "Nouvelle partie",
+    "win": "Vous gagnez !",
+    "lose": "Le croupier gagne.",
+    "push": "Égalité.",
+    "bust": "Vous avez dépassé 21.",
+    "dealerBust": "Le croupier a dépassé 21. Vous gagnez !"
+  }
+}
