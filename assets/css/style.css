@@ -30,7 +30,7 @@
 .project-spotlight .project-body{padding:clamp(24px,3vw,40px)}
 .project-spotlight h2,.project-spotlight h3{font-size:clamp(1.5rem,2.6vw,2.15rem);margin:.7rem 0 1rem}
 .project-spotlight .project-body p{min-height:0;margin-bottom:1.3rem}
-#the-fantasy,#timeline,#contact{scroll-margin-top:150px}
+#the-fantasy,#the-great-fantasy-ii,#timeline,#contact{scroll-margin-top:150px}
 @media(max-width:650px){.project-spotlight{grid-template-columns:1fr}.featured-projects{grid-template-columns:1fr}.project-spotlight .project-body{padding:24px}}
 @media(prefers-reduced-motion:reduce){.project-card:hover .has-preview img{transform:none}}
 

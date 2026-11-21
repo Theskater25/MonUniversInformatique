@@ -39,7 +39,8 @@
     "repo": "View repository ↗",
     "details": "Explore the project →",
     "playNow": "Play →",
-    "download": "Python source (.zip) ↗"
+    "download": "Python source (.zip) ↗",
+    "discoverSequel": "Discover the sequel →"
   },
   "journey": {
     "kicker": "MY JOURNEY",
@@ -79,7 +80,8 @@
     "mancala": "A Pygame strategy game with rules, turn-taking and a graphical interface.",
     "blackjack": "A Python card game; a web demo is also available.",
     "portfolio": "Mon Univers Informatique: from my first portfolio to V2. Explore both versions and see how the design and features have evolved.",
-    "portfolioTitle": "Building a website"
+    "portfolioTitle": "Building a website",
+    "fantasyII": "The sequel to my pixel art RPG. Chapters IV and V feature 300 scenes with choices, 15 bosses and turn-based combat. Chapter VI is in development."
   },
   "filter": {
     "all": "All",
@@ -117,7 +119,8 @@
     "fantasy": "The Fantasy title screen, featuring a pixel art forest and the game menu.",
     "mancala": "Screenshot of the Python Mancala game: board, seeds and current player.",
     "blackjack": "Screenshot of the Blackjack web demo: player and dealer cards.",
-    "portfolio": "Preview of the Mon Univers Informatique homepage."
+    "portfolio": "Preview of the Mon Univers Informatique homepage.",
+    "fantasyII": "The Fantasy Great Adventure II title screen beneath a pixel art aurora."
   },
   "evolution": {
     "documentTitle": "From V1 to V2 | Mon Univers Informatique",
