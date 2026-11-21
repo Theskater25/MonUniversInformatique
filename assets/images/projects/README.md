@@ -3,7 +3,7 @@
 Captures produites à partir des projets réels de Clément Dufour, sans illustration générée.
 
 - `fantasy.webp` : écran d'accueil de The Fantasy 2.7, depuis `game/index.html` dans [The_Fantasy_The_Great_Adventure](https://github.com/Theskater25/The_Fantasy_The_Great_Adventure/tree/459dacf59036a14501d1c902b7801d28effdf86f). Les ressources du jeu et leurs crédits restent documentés dans ce dépôt.
-- `fantasy-ii.png` : écran titre de [The Fantasy Great Adventure II](https://github.com/Theskater25/the-great-fantasy-ii), capturé depuis le jeu à 1280 × 800 px.
+- `fantasy-ii.png` : écran titre de [The Fantasy Great Adventure II](https://github.com/Theskater25/The_Fantasy_The_Great_Adventure_II), capturé depuis le jeu à 1280 × 800 px.
 - `mancala.webp` : premier écran rendu par `mancala.py`, depuis [Mancala-Python-game](https://github.com/Theskater25/Mancala-Python-game/tree/f3b8cff675d77183320731c7054b6b311401e623). Auteurs du jeu : Clément Faure, Clément Dufour et Tom Torrente.
 - `blackjack.webp` : table de la démonstration web disponible dans `demos/blackjack.html` de ce portfolio. Cet aperçu représente la démo JavaScript, pas l'interface du programme Python original.
 - `portfolio.webp` : page d'accueil de cette version du portfolio.
