@@ -1,0 +1,39 @@
+.salon{--champ:#364c4b;--paneau:#253c3c;background:var(--champ);width:100%;min-height:278px;padding:clamp(12px,2.4vw,23px);gap:13px}
+.plateau-table{display:grid;grid-template-columns:repeat(var(--colonnes),minmax(0,1fr));gap:3px;width:min(100%,357px);align-items:center}
+.plateau-table.repere-table{grid-template-columns:.6fr repeat(var(--colonnes),minmax(0,1fr))}
+.axe-table{font:700 .74rem var(--mono);text-align:center;color:#fff0d6}
+.cellule-table{display:grid;place-items:center;min-width:0;aspect-ratio:1;padding:0;border:1px solid transparent;border-radius:4px;line-height:1;text-align:center;color:#fff2d6;background:var(--paneau);font-family:var(--mono);font-weight:750}
+button.cellule-table,.outil-table{cursor:pointer;touch-action:manipulation}.salon button:focus-visible{outline:3px solid #fff3a7;outline-offset:-3px;z-index:1}
+.outils-table{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px;max-width:100%}
+.outil-table{font-size:.92rem;font-weight:720;line-height:1.15;padding:8px 11px;background:#ffe7c6;color:#302b32;border:2px solid #382f35;border-radius:6px}
+.outil-table:hover,.outil-table[aria-pressed=true]{background:#ffbc83}.outil-table:active{transform:translateY(1px)}
+.titre-table,.note-table{text-align:center;margin:0}.titre-table{font-size:clamp(1.35rem,3vw,2rem);color:#fff2ca}.note-table{font-size:.86rem;color:#ffe9ca}
+body[data-jeu=verrerie-des-doubles] .salon{--champ:#503a40;--paneau:#60484a}
+body[data-jeu=verrerie-des-doubles] .plateau-table{width:min(100%,335px);gap:5px;border:3px solid #96715c;border-radius:8px;padding:6px;background:#3e3037}
+[class*="verre-"]{color:#2c2930;background:#ffcd78;font-size:clamp(1rem,3.8vw,1.8rem);box-shadow:inset 0 -3px #0002}
+.verre-0{background:#5b494b}.verre-2{background:#d4dfcb}.verre-4{background:#a6cdc4}.verre-8{background:#f1cda3}.verre-16{background:#eba384}.verre-32{background:#e5a1a0}.verre-64{background:#c9a6c0}
+body[data-jeu=serrure-a-disques] .salon{--champ:#3c4849}
+body[data-jeu=serrure-a-disques] .plateau-table{width:min(100%,275px);gap:7px}.disque{font-size:clamp(1.5rem,5vw,2.3rem);background:#d6b479;color:#302e34;border:3px double #6f5c50;border-radius:48%;box-shadow:inset 0 -4px #a7855f}
+.historique-table{border-collapse:collapse;font:600 .85rem var(--mono);color:#fff2cf;text-align:center}.historique-table th,.historique-table td{padding:3px 9px;border-bottom:1px solid #ffffff3d}.historique-table th{font:700 .84rem system-ui}.historique-table td:first-child{letter-spacing:.18em;color:#ffdd9e}
+body[data-jeu=sudoku-des-serres] .salon{--champ:#354b42}
+body[data-jeu=sudoku-des-serres] .plateau-table{gap:1px;width:min(100%,355px)}body[data-jeu=sudoku-des-serres] .cellule-table{border-radius:1px;font-size:clamp(.95rem,3vw,1.3rem)}
+.indice{background:#b4c6a9;color:#344a3c}.inscrit{background:#f6ebca;color:#26614e}.inscrit.choisie{background:#ffe5a0;box-shadow:inset 0 0 0 2px #986145}
+.cellule-table.bord-d{border-right:3px solid #556c56}.cellule-table.bord-b{border-bottom:3px solid #556c56}
+body[data-jeu=sudoku-des-serres] .outils-table{display:grid;grid-template-columns:repeat(9,minmax(0,1fr));width:min(100%,350px);gap:4px}
+body[data-jeu=sudoku-des-serres] .outil-table{padding:7px 0}
+body[data-jeu=sudoku-des-serres] .outil-table:nth-child(10){grid-column:2 / span 4}
+body[data-jeu=sudoku-des-serres] .outil-table:nth-child(11){grid-column:6 / span 3}
+body[data-jeu=jardin-cellulaire] .salon{--champ:#30483e}
+body[data-jeu=jardin-cellulaire] .plateau-table{gap:2px}.terre,.pousse{border-radius:3px;box-shadow:none}.terre{background:#405b4e;border:1px solid #68816b}.pousse{background:#dbd98d;color:#496849;border:1px solid #cbdb9b}
+body[data-jeu=crypte-des-encres] .salon{--champ:#3d3548}
+body[data-jeu=crypte-des-encres] .plateau-table{width:min(100%,150px);gap:4px}.salle{background:#51465b;color:#b9a7b3}.heros{background:#ffcf80;color:#412f37}
+body[data-jeu=vingt-et-un-du-quai] .salon{--champ:#31514b;gap:16px}
+.tapis-table{display:grid;width:100%;gap:16px}.main-table{display:flex;align-items:center;justify-content:center;gap:6px;flex-wrap:wrap;min-height:39px}.nom-main{width:100%;text-align:center;color:#ffdfaa;font-size:.95rem}
+.carte-table{display:grid;place-items:center;width:clamp(38px,9vw,54px);aspect-ratio:5/7;border:2px solid #302c35;box-shadow:2px 3px #242f30;border-radius:5px;background:#fff2d6;color:#293d43;font:800 clamp(1.05rem,3vw,1.45rem) var(--mono)}
+.carte-table.rouge{color:#a34845}.carte-table.dos{color:#ffdc91;background:repeating-linear-gradient(45deg,#4c5968 0 3px,#697281 3px 5px)}
+body[data-jeu=gardiens-du-sentier] .salon{--champ:#344c3c}.gazon{background:#506a4e}.chemin{background:#bd9c70;color:#604936}.socle{background:#e4d195;color:#51523a;border:2px dashed #7b885b}.tour{background:#8ac8ae;color:#264c43;border:2px solid #c1e3ba}.bete{background:#efac80;color:#593c39}
+body[data-jeu=dedale-des-sources] .salon{--champ:#2d4850}
+body[data-jeu=dedale-des-sources] .plateau-table{gap:1px;width:min(100%,390px);border:3px solid #697b77;background:#40545a}
+body[data-jeu=dedale-des-sources] .cellule-table{border:0;border-radius:1px;font-size:clamp(.65rem,2.5vw,1.05rem)}
+.mur{background:#697c78;color:transparent;box-shadow:inset 0 2px #82918a}.galerie,.trace{background:#283c42}.trace{color:#ad9383}.source{background:#76c3b4;color:#214843}.sortie{background:#e4c57f;color:#493b34}
+@media(max-width:500px){.salon{padding:10px;gap:10px}.outil-table{padding:7px 8px}.outils-table{gap:4px}.salon .repere-table{gap:1px}.historique-table th,.historique-table td{padding:3px 6px}}

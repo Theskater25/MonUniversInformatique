@@ -1,0 +1,83 @@
+.stage.atelier {
+  --nuit: #253947;
+  background: linear-gradient(120deg, #1d2735f7, #25313ce8), var(--jaquette) center / cover;
+  color: #fff3d4;
+  align-content: start;
+  gap: 12px;
+}
+.titre-manche { font: 800 1rem var(--mono); text-align: center; }
+.atelier-grille {
+  display: grid;
+  width: min(100%, var(--maxi, 365px));
+  grid-template-columns: repeat(var(--cols), minmax(0, 1fr));
+  gap: 4px;
+  position: relative;
+  isolation: isolate;
+}
+.atelier-case {
+  --surface: #c1e4dc;
+  --texte: #1b343b;
+  position: relative;
+  aspect-ratio: 1;
+  min-width: 0;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 2px;
+  color: var(--texte);
+  background: var(--surface);
+  border: 1.5px solid #152338;
+  border-radius: 6px;
+  box-shadow: inset 0 -3px #14243424;
+  padding: 3px;
+  font: 800 clamp(1.15rem, 3.2vw, 2rem) var(--mono);
+  text-align: center;
+}
+.atelier-case small { font: 700 clamp(.65rem, 1.6vw, .8rem) system-ui, sans-serif; line-height: 1.15; }
+.atelier-case.actif { outline: 2px solid #fbd484; outline-offset: -3px; }
+.atelier-case:enabled:hover { filter: brightness(1.13); }
+.atelier-case:focus-visible, .pupitre button:focus-visible { outline: 3px dashed white; outline-offset: 1px; }
+.atelier [data-ton=or] { --surface:#f9d487; --texte:#49341d; }
+.atelier [data-ton=rose] { --surface:#ebaab6; --texte:#45283a; }
+.atelier [data-ton=bleu] { --surface:#a6d2ef; --texte:#233952; }
+.atelier [data-ton=vert] { --surface:#a9d8b8; --texte:#1e3e39; }
+.atelier [data-ton=prune] { --surface:#c0a9d8; --texte:#302541; }
+.atelier [data-ton=corail] { --surface:#f6ac80; --texte:#452f2c; }
+.atelier [data-ton=nuit] { --surface:#314358; --texte:#d9e3dc; }
+.atelier [data-ton=vide] { --surface:#344452; --texte:#bac8cb; }
+.atelier [data-ton=papier] { --surface:#f3e7c7; --texte:#463a33; }
+.plateau-choix, .pupitre { display:flex; flex-wrap:wrap; justify-content:center; gap:7px; }
+.plateau-choix button, .pupitre button {
+  min-height:40px; padding:6px 12px; color:#2b2a34; background:#f6e4b7;
+  border:2px solid #202332; border-radius:5px; box-shadow:0 2px #151b26;
+  font: 750 .9rem system-ui, sans-serif;
+}
+.plateau-choix [aria-pressed=true], .pupitre .enfonce { background:#ffab79; }
+.plateau-choix button:disabled,.pupitre button:disabled { opacity:.64; }
+.legende-plateau { font-size:.94rem; text-align:center; }
+.modele-atelier { display:flex; align-items:center; justify-content:center; gap:10px; font:.84rem var(--mono); }
+.modele-atelier .atelier-grille { width: auto; grid-auto-columns:16px; grid-template-columns:repeat(var(--cols),18px); gap:1px; }
+.modele-atelier .atelier-case { font-size:.68rem; padding:0; border:0; border-radius:2px; box-shadow:none; }
+.journal-atelier { list-style:none; margin:0; padding:0; display:grid; gap:4px; font:.83rem var(--mono); text-align:center; }
+.etoiles { gap:0; background:#20263d; border-radius:6px; }
+.etoiles .atelier-case { background:none; box-shadow:none; border:0; }
+.etoiles .glyphe { background:#33495e; border:1px solid #97adae; color:#fff1c8; border-radius:50%; width:1.55em; height:1.55em; display:grid; place-items:center; font-size:.85em; }
+.etoiles [data-ton=or] .glyphe { background:#eac484; color:#312e36; }
+.etoiles [data-ton=vide] .glyphe { display:none; }
+.liaisons { position:absolute; inset:0; width:100%; height:100%; z-index:-1; pointer-events:none; }
+.lucioles .atelier-case { border-radius:45%; }
+.herbier .atelier-case { aspect-ratio:.86; border-radius:4px 10px 4px 4px; }
+.bassins .atelier-case {
+  aspect-ratio:.85; color:#fff5d8;
+  background:
+    repeating-linear-gradient(0deg,transparent 0 11px,#f5edce70 11px 13px) 7px center / 8px 90% no-repeat,
+    linear-gradient(to top,#398598 0%,#59aab0 var(--eau),#2e4657 var(--eau),#263947 100%);
+  border:3px solid #a48b6f; border-radius:5px 5px 13px 13px;
+}
+.bassins .glyphe,.bassins small { background:#23384bdd; padding:2px 6px; border-radius:2px; }
+.trame .atelier-case { border-radius:1px; background-image:repeating-linear-gradient(45deg,transparent 0 4px,#ffffff20 4px 6px); }
+.valises .atelier-case { aspect-ratio:1.3; border-radius:8px; }
+.ecran-direct { display:block; width:100%; max-width:540px; height:auto; border:2px solid #1b2233; background:var(--jaquette) center / cover; border-radius:6px; image-rendering:pixelated; }
+.pupitre button { min-width:72px; min-height:44px; touch-action:none; user-select:none; }
+@media(max-width:720px) { .atelier-grille { width:min(100%,300px); } .stage.atelier {padding:10px;gap:8px;} .game-banner img {mask-image:linear-gradient(90deg,transparent,#0003 42%,#000 82%);} }
+

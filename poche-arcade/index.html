@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f6f3eb"><title>Poche Arcade — Salle d’arcade</title><link rel="icon" href="assets/poche.svg"><link rel="stylesheet" href="assets/arcade.css"><script defer src="assets/commun.js"></script><script defer src="assets/accueil.js"></script></head>
+<body><header id="navigation"></header><main class="wrap">
+<a class="retour-projets" href="../generic.html#poche-arcade">Retour aux projets</a>
+<section class="feature" aria-roledescription="carrousel" aria-label="Jeux à la une">
+  <div class="feature-controls" hidden>
+    <button type="button" class="rotation" aria-label="Mettre le défilement en pause"></button>
+    <div class="slides" role="group" aria-label="Choisir le jeu à la une"></div>
+  </div>
+  <article class="feature-panel" aria-roledescription="diapositive">
+    <img class="hero-art" src="assets/ligne-de-crete.png" alt=""><div class="hero-shade"></div>
+    <div class="hero-copy">
+      <span class="feature-tag"><span aria-hidden="true">★</span> À LA UNE</span>
+      <h1>Ligne de crête</h1><p>Le fanion se rapproche, la roche défile. Choisis le bon instant pour sauter au-dessus de chaque crevasse.</p>
+      <a class="play" href="ligne-de-crete/index.html"><span aria-hidden="true">▶</span> Jouer maintenant</a>
+    </div>
+  </article>
+</section>
+<section class="catalog" id="collection">
+  <div class="catalog-head"><h2><i class="pixel-cross" aria-hidden="true"></i> Les cartouches</h2>
+    <input id="recherche" type="search" aria-label="Rechercher un jeu par nom ou par genre" placeholder="Rechercher un nom, un genre…">
+  </div>
+  <div class="filters genres" aria-label="Filtrer les jeux"></div>
+  <p id="resultats" aria-live="polite"></p>
+  <div class="cards"></div>
+  <button id="effacer-filtres" class="minor" hidden>Afficher tous les jeux</button>
+</section>
+</main><footer class="wrap"><span class="footer-brand">Poche Arcade</span><span><span id="nombre-jeux">47 jeux</span> <b>✦</b> 1 arcade</span></footer></body></html>

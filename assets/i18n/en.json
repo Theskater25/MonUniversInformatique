@@ -25,6 +25,7 @@
     "tools": "Tools & systems"
   },
   "featured": {
+    "pocheArcade": "Quick puzzle, arcade and strategy games. Pick one of 47 games and play it in your browser.",
     "kicker": "SELECTED WORK",
     "title": "Featured projects",
     "fantasy": "My fantasy RPG: character classes, battles and an adventure across three chapters. It started in Python and is now evolving as a browser game.",
@@ -73,6 +74,7 @@
     "send": "Send message"
   },
   "projects": {
+    "pocheArcade": "From sudoku to asteroid mining, this collection brings together 47 French-language browser games. You can also play 24 of them on your computer, in a terminal or with Pygame.",
     "kicker": "WORK",
     "title": "My programming projects",
     "subtitle": "A selection of personal projects and games. Use the filters to browse by technology.",
@@ -116,6 +118,7 @@
     "exploreAlt": "Illustration of discovery and exploration"
   },
   "previews": {
+    "pocheArcade": "Poche Arcade home screen with the featured mountain game and the first games in the catalogue.",
     "fantasy": "The Fantasy title screen, featuring a pixel art forest and the game menu.",
     "mancala": "Screenshot of the Python Mancala game: board, seeds and current player.",
     "blackjack": "Screenshot of the Blackjack web demo: player and dealer cards.",

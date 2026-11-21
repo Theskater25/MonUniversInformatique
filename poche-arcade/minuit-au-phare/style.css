@@ -1,0 +1,22 @@
+.stage {
+  background: #193744;
+  color: #ffefd2;
+  gap: 10px;
+}
+.nom-veille { font: 800 1rem var(--mono); text-align: center; }
+.carte-marine {
+  width: min(100%, 392px);
+  aspect-ratio: var(--largeur) / var(--hauteur);
+  position: relative;
+  box-shadow: 0 0 0 2px #142837, 0 3px 0 2px #11232d;
+}
+.carte-marine canvas { display: block; width: 100%; height: 100%; image-rendering: pixelated; }
+.miroirs { position: absolute; inset: 0; display: grid; grid-template-columns: repeat(var(--largeur), 1fr); grid-template-rows: repeat(var(--hauteur), 1fr); }
+.miroirs button { border: 0; padding: 0; border-radius: 6px; background: transparent; }
+.miroirs button:enabled:hover { background: #fff3bb24; }
+.miroirs button:focus-visible { outline: 3px dashed #ffe3a1; outline-offset: -3px; }
+.carte-gagnee { box-shadow: 0 0 0 3px #ffd17a; }
+@media (max-width: 720px) {
+  .game-banner img { mask-image: linear-gradient(90deg, transparent, #0003 42%, #000 84%); }
+}
+

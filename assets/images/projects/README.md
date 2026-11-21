@@ -2,6 +2,8 @@
 
 Captures produites à partir des projets réels de Clément Dufour, sans illustration générée.
 
+Les images `poche-arcade.webp` et `poche-arcade-640.webp` montrent l’[accueil de Poche Arcade](../../../poche-arcade/index.html), avec Ligne de crête à la une et le catalogue des 47 jeux.
+
 - `fantasy.webp` : écran d'accueil de The Fantasy 2.7, depuis `game/index.html` dans [The_Fantasy_The_Great_Adventure](https://github.com/Theskater25/The_Fantasy_The_Great_Adventure/tree/459dacf59036a14501d1c902b7801d28effdf86f). Les ressources du jeu et leurs crédits restent documentés dans ce dépôt.
 - `fantasy-ii.png` : écran titre de [The Fantasy Great Adventure II](https://github.com/Theskater25/The_Fantasy_The_Great_Adventure_II), capturé depuis le jeu à 1280 × 800 px.
 - `mancala.webp` : premier écran rendu par `mancala.py`, depuis [Mancala-Python-game](https://github.com/Theskater25/Mancala-Python-game/tree/f3b8cff675d77183320731c7054b6b311401e623). Auteurs du jeu : Clément Faure, Clément Dufour et Tom Torrente.

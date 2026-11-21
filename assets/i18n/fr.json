@@ -25,6 +25,7 @@
     "tools": "Outils & systèmes"
   },
   "featured": {
+    "pocheArcade": "Des parties courtes de logique, d’arcade et de stratégie. Choisis l’un des 47 jeux et lance-le dans ton navigateur.",
     "kicker": "SÉLECTION",
     "title": "Projets à découvrir",
     "fantasy": "Mon RPG fantastique : des classes de personnages, des combats et une aventure en trois chapitres. Né en Python, il évolue aujourd'hui en jeu web.",
@@ -73,6 +74,7 @@
     "send": "Envoyer le message"
   },
   "projects": {
+    "pocheArcade": "Du sudoku aux carrières d’astéroïdes, la salle réunit 47 mini-jeux en français. Tu peux aussi jouer à 24 d’entre eux sur ordinateur, dans le terminal ou avec Pygame.",
     "kicker": "RÉALISATIONS",
     "title": "Mes projets informatiques",
     "subtitle": "Une sélection de mes jeux et projets personnels. Utilise les filtres pour explorer les technologies.",
@@ -116,6 +118,7 @@
     "exploreAlt": "Illustration d'exploration et de découverte"
   },
   "previews": {
+    "pocheArcade": "Accueil de Poche Arcade avec le jeu de montagne à la une et les premières cartouches du catalogue.",
     "fantasy": "Écran d'accueil de The Fantasy, avec une forêt en pixel art et le menu du jeu.",
     "mancala": "Capture du jeu Mancala en Python : plateau, billes et tour du joueur.",
     "blackjack": "Capture de la démo web Blackjack : cartes du joueur et du croupier.",

@@ -1,0 +1,54 @@
+.classique{width:100%;min-height:270px;padding:clamp(12px,3vw,24px);gap:18px}
+.classique button,.mode-classique,.touche-2d{font-family:inherit;cursor:pointer}
+.classique button:disabled{opacity:.54;cursor:default}
+.classique button:focus-visible,.touche-2d:focus-visible{outline:3px solid #fff3ae;outline-offset:2px;z-index:1}
+.choix-rangee,.prix-form,.table-duel,.boite-allumettes,.manette-2d{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:8px}
+.choix,.mode-classique,.prix-form input{border:2px solid #292731;border-radius:6px;padding:8px 12px;color:#26232b;background:#ffedd2;font-weight:700}
+.choix:enabled:hover,.touche-lettre:enabled:hover,.touche-2d:hover{background:#ffcb91}
+.feedback.termine{font-weight:750}.mode-classique{background:#f8f2e4;max-width:100%}
+body[data-jeu=nombre-mystere] .classique{background:#4b3540;border-color:#382734}
+.prix-intervalle{font:800 clamp(2.4rem,8vw,4.3rem)/1 var(--mono);letter-spacing:-.08em;color:#ffdd96}
+.prix-form input{font:700 1rem var(--mono);width:8em;max-width:100%;background:#fffaf0}
+.historique{font:600 .85rem var(--mono);color:#ffe2b7;text-align:center;margin:0}
+body[data-jeu=pierre-feuille-ciseaux] .classique{background:#2b4747}
+.table-duel{width:100%;gap:16px}.main-duel{display:grid;justify-items:center;gap:1px;min-width:94px;padding:9px 16px 10px;background:#dce7d3;color:#263d3f;border:3px solid #1c3033;border-radius:9px;box-shadow:3px 4px #1c3033}
+.main-duel:nth-child(2){background:#f4cba3}.main-duel b{font:2.6rem/1.35 "Segoe UI Emoji",sans-serif}.main-duel small,.main-duel span{font-weight:750}
+body[data-jeu=mot-suspendu] .classique{background:#423643}
+.tirage{display:flex;justify-content:center;gap:3px;max-width:100%}.caractere{width:clamp(22px,6.6vw,42px);line-height:1.55;text-align:center;font-family:var(--mono);font-size:clamp(1.05rem,3.8vw,1.65rem);font-weight:800;color:#392d32;background:#f4d6a2;border-radius:3px;box-shadow:inset 0 -3px #bf996d}
+.clavier-lettres{display:grid;gap:5px;width:min(100%,390px)}.clavier-lettres>div{display:flex;justify-content:center;gap:3px}
+.touche-lettre{flex:0 1 36px;min-width:0;padding:7px 0;border:1px solid #8e7b77;border-radius:4px;background:#f0e2d4;color:#372f39;font:700 .95rem var(--mono)}
+.clavier-lettres button:disabled{opacity:.43}.touche-lettre:focus-visible{outline-offset:0}
+body[data-jeu=allumettes] .classique{background:#4c3a36}
+.boite-allumettes{width:min(100%,400px);display:grid;grid-template-columns:repeat(10,1fr);grid-template-rows:repeat(2,32px);align-items:end;justify-items:center;gap:10px 0;padding:14px 12px;background:#634a3c;border:3px solid #a87c55;border-radius:7px;box-shadow:inset 0 0 0 3px #504039}
+.allumette{position:relative;width:4px;height:29px;transform:rotate(8deg);background:#edc894}.allumette:before{content:"";position:absolute;top:-3px;left:-2px;width:8px;height:9px;border-radius:45%;background:#ef846c}
+body[data-jeu=morpion] .classique{background:#374952}.ardoise{display:grid;grid-template-columns:repeat(3,1fr);gap:5px;width:min(100%,230px)}
+.case-ardoise{aspect-ratio:1;display:grid;place-items:center;min-width:0;line-height:1;padding:0;border:1px solid #768985;border-radius:4px;background:#293b40;color:#f8d59b;font:800 clamp(1.8rem,8vw,3rem)/1 var(--mono)}
+.case-ardoise[aria-disabled=false]:hover{background:#41565a}.case-ardoise.pion-2{color:#96d6c7}.case-ardoise.alignee{border:3px solid #ffe6a5;background:#4f5c50}
+body[data-jeu=quatre-en-ligne] .classique{background:#4a3840}
+.chevalet{display:grid;grid-template-columns:repeat(7,1fr);width:min(100%,350px);gap:4px;padding:6px 8px 10px;background:#a77551;border:3px solid #674736;border-radius:8px}
+.colonne{display:flex;flex-direction:column;align-items:center;gap:4px;min-width:0;padding:0 2px 3px;background:transparent;border:0;border-radius:4px;color:#211e25}
+.colonne[aria-disabled=false]:hover{background:#eebd89}.numero-colonne{font:700 .78rem var(--mono)}
+.jeton{display:grid;place-items:center;width:100%;aspect-ratio:1;border:2px solid #6a4b41;border-radius:50%;background:#38333a;color:transparent;font:700 .61rem var(--mono)}
+.jeton.pion-1{background:#f39678;color:#893f34}.jeton.pion-2{background:#8acfc0;color:#315c58}.jeton.alignee{outline:2px solid #fff1a7;outline-offset:-3px}
+body[data-jeu=bataille-navale] .classique{background:#253f4c}
+.bassins{display:grid;grid-template-columns:1fr 1fr;gap:12px;width:100%;align-items:start}.bassins.placement{grid-template-columns:minmax(0,270px);justify-content:center}
+.bassin{display:grid;gap:5px;min-width:0}.titre-bassin{text-align:center;color:#ffdfb5;font-size:.88rem}
+.quadrillage{width:min(100%,355px);display:grid;grid-template-columns:.6fr repeat(var(--cote),1fr);gap:2px;align-items:center}
+.repere{font:700 .7rem var(--mono);text-align:center;color:#e3ddca}
+.mer,.sol{aspect-ratio:1;width:100%;min-width:0;display:grid;place-items:center;padding:0;border:1px solid #608090;border-radius:3px;background:#375967;color:#ffedd0;font:800 clamp(.7rem,2.4vw,1.05rem)/1 var(--mono)}
+button.mer:hover{background:#50798a}.mer.navire{color:#ffdc9e;background:#536d71}.mer.ecume{background:#29434e;color:#b1d5dd}.mer.impact{color:#362732;background:#f0a282}
+body[data-jeu=champ-de-balises] .classique{background:#30483f;gap:10px}
+.sol{background:#90ab81;color:#1f3b39;border-color:#5c7962;box-shadow:inset 0 -2px #69886c}
+.sol:hover{outline:2px solid #ffdfa3;outline-offset:-3px}.sol.ouvert{background:#d6d7b6;box-shadow:none}.sol.fanion{color:#463322;background:#f5ca81}.sol.mine{background:#e79876;color:#513232}
+.sol[data-nombre="2"]{color:#1a4970}.sol[data-nombre="3"],.sol[data-nombre="4"]{color:#843e38}.outil[aria-pressed=true]{background:#ffd287}
+.terrain-2d{position:relative;display:grid;min-height:0;padding:0;overflow:hidden;background:#272637}
+.terrain-2d canvas{display:block;width:100%;height:auto;aspect-ratio:5/3;image-rendering:pixelated;touch-action:manipulation}
+.terrain-2d canvas:focus-visible{outline:3px solid #ffd68d;outline-offset:-4px}
+.etat-2d{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);white-space:nowrap;padding:.45em .8em;border:2px solid #f5d399;border-radius:6px;background:#282536ed;color:#fff0d3;font-size:clamp(1rem,3vw,1.6rem);pointer-events:none}
+.etat-2d[hidden]{display:none}.manette-2d{margin:8px 0 15px;justify-content:flex-start}.touche-2d{min-width:48px;min-height:40px;border:2px solid #332f37;border-radius:7px;background:#f1ddba;color:#342f3b;font:750 1.1rem var(--mono);touch-action:none;user-select:none;-webkit-user-select:none;box-shadow:0 2px #423b40}
+.touche-2d.enfoncee{background:#ffb481;transform:translateY(2px);box-shadow:none}
+@media(max-width:500px){
+  .classique{padding:10px;gap:12px}.choix{padding:7px 9px}.main-duel{min-width:82px}
+  .bassins:not(.placement){grid-template-columns:minmax(0,250px);justify-content:center;gap:14px}
+  .quadrillage{gap:2px}.chevalet{gap:2px;padding:5px}.colonne{padding:0 1px 2px;gap:3px}
+}

@@ -8,6 +8,7 @@ Adresse principale : **https://theskater25.github.io/MonUniversInformatique/**. 
 
 - `index.html` : présentation, sélection de projets, parcours, activité GitHub et contact.
 - `generic.html` : galerie avec filtres par technologie.
+- [Poche Arcade](poche-arcade/index.html) réunit 47 mini-jeux jouables dans le navigateur. Les moteurs, les illustrations et le menu Python pour 24 jeux se trouvent dans [le dossier du projet](poche-arcade/README.md).
 - `the-fantasy.html` : présentation du projet, captures de gameplay et historique de la V1 Python à la 2.7.
 - `mancala.html` : fiche du projet collectif et contribution de Clément à l’affichage avec Pygame.
 - `blackjack.html` : présentation du projet Python et de l’adaptation web.
